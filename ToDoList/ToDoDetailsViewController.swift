@@ -72,6 +72,33 @@ class ToDoDetailsViewController: UIViewController {
     
     @IBAction func taskDidComplete(_ sender: Any) {
         
+        
+        let alert = UIAlertController(title: "Confirm", message: "Are yiu sure you would like to complete this task?", preferredStyle: .alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { action in
+            
+            alert.dismiss(animated: true, completion: nil)
+            
+        }
+        
+        let okAction = UIAlertAction(title: "OK", style: .default) { action in
+            
+            self.comleteTask(alert: alert)
+            
+        }
+        
+        alert.addAction(cancelAction)
+        
+        alert.addAction(okAction)
+        
+        present(alert, animated: true, completion: nil)
+        
+       
+    }
+    
+
+    func comleteTask(alert: UIAlertController) {
+        
         toDoItem.isComplete = true
         
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
@@ -81,5 +108,4 @@ class ToDoDetailsViewController: UIViewController {
         disableButton()
     }
     
-
 }
