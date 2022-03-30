@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		338E2C2B27EE2D0C00895E23 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 338E2C2927EE2D0C00895E23 /* ToDoList.xcdatamodeld */; };
+		33E00A2427F487E400FD6500 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E00A2327F487E400FD6500 /* LoginViewController.swift */; };
 		E1A2C07C21AEF8170091E41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2C07B21AEF8170091E41F /* AppDelegate.swift */; };
 		E1A2C08121AEF8170091E41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A2C07F21AEF8170091E41F /* Main.storyboard */; };
 		E1A2C08321AEF81B0091E41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A2C08221AEF81B0091E41F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		338E2C2A27EE2D0C00895E23 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		33E00A2327F487E400FD6500 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E1A2C07821AEF8170091E41F /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A2C07B21AEF8170091E41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A2C08021AEF8170091E41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				E1A2C08421AEF81B0091E41F /* LaunchScreen.storyboard */,
 				E1A2C08721AEF81B0091E41F /* Info.plist */,
 				338E2C2927EE2D0C00895E23 /* ToDoList.xcdatamodeld */,
+				33E00A2327F487E400FD6500 /* LoginViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33E00A2427F487E400FD6500 /* LoginViewController.swift in Sources */,
 				E1A2C09221AF01770091E41F /* ToDoItemModel.swift in Sources */,
 				338E2C2B27EE2D0C00895E23 /* ToDoList.xcdatamodeld in Sources */,
 				E1A2C09021AEFBDB0091E41F /* ToDoDetailsViewController.swift in Sources */,
